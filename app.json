@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/chatbot.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.mayurm517.myapp"
     },
     "web": {
       "bundler": "metro",
@@ -27,7 +28,7 @@
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/data:image/chatbot.png",
+          "image": "./assets/images/chatbot.png",
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
@@ -36,6 +37,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "1296e69d-7393-4471-9cf7-994d309d7d83"
+      }
     }
   }
 }
